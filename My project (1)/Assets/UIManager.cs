@@ -19,17 +19,17 @@ public class UIManager : MonoBehaviour
             return instance;
         }
     }
-
+    //using TMPro
     [SerializeField] private TextMeshProUGUI scoreText;
 
 
-    void Start()
+    void Start()//default value of score
     {
-
+        scoreText.text = "Score: 0";
     }
 
     void Update()
     {
-
+        scoreText.text = $"Score: {ScoreKeeper.Instance.Score}";
     }
 }

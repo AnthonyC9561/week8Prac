@@ -18,8 +18,8 @@ public class ScoreKeeper : MonoBehaviour
     }
 
     [SerializeField] private int coinScore = 100;
-    private int score;
-    public int Score
+    private int score; //current player score
+    public int Score //property to read score
     {
         get
         {
@@ -27,6 +27,7 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
+    //to access method ScoreKeeper.Instance.addCoinScore();
     public void addCoinScore()
     {
         score += coinScore;
