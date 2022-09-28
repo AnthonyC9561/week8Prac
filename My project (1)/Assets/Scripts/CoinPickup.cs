@@ -7,7 +7,7 @@ public class CoinPickup : MonoBehaviour
     
  public void OnTriggerEnter(Collider collider)
     {
-        ScoreKeeper.Instance.addCoinScore();
+        // ScoreKeeper.Instance.addCoinScore();
         Destroy(gameObject);
     }
 
