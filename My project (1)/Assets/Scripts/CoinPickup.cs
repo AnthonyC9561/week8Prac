@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
 {
+<<<<<<< Updated upstream
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,13 @@ public class CoinPickup : MonoBehaviour
  public void OnTriggerEnter(Collider collider)
     {
                 Destroy(gameObject);
+=======
+    
+ public void OnTriggerEnter(Collider collider)
+    {
+        ScoreKeeper.Instance.addCoinScore();
+        Destroy(gameObject);
+>>>>>>> Stashed changes
     }
 
 }
