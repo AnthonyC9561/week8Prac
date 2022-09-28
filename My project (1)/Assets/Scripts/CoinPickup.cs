@@ -15,4 +15,10 @@ public class CoinPickup : MonoBehaviour
     {
         
     }
+    
+ public void OnTriggerEnter(Collider collider)
+    {
+                Destroy(gameObject);
+    }
+
 }
