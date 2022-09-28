@@ -144,9 +144,59 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.7
+    - 2.0.8
+    - 2.3.1
+    - 2.3.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.1
+    - 3.2.0
+    - 3.3.0
+    - 3.3.1
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
+    - 3.4.4
+    - 3.4.5
+    - 3.4.7
+    - 3.4.9
+    - 3.5.0
+    - 3.5.2
+    - 3.6.1
+    - 3.7.0
+    - 3.7.1
+    - 3.7.3
     - 3.7.5
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
     compatible:
     - 3.7.5
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
     verified: 3.7.5
   dependencies:
   - name: com.unity.ugui
@@ -170,7 +220,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637635162230000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -202,9 +252,48 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
     - 3.6.12
+    - 3.7.1
+    - 3.8.1
     compatible:
     - 3.6.12
+    - 3.7.1
+    - 3.8.1
     verified: 3.6.12
   dependencies:
   - name: com.unity.ugui
@@ -228,7 +317,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637692274360000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -728,9 +817,65 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.18
+    - 0.0.19
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
     - 4.1.5
+    - 4.2.0-pre.1
+    - 4.2.0-pre.2
+    - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
     compatible:
     - 4.1.5
+    - 4.2.0-pre.1
+    - 4.2.0-pre.2
+    - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
     verified: 4.1.5
   dependencies:
   - name: com.unity.ugui
@@ -777,7 +922,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637888998470000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1285,10 +1430,35 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
     - 2.1.9
+    - 2.1.10
     compatible:
     - 2.1.9
-    verified: 2.1.9
+    - 2.1.10
+    verified: 2.1.10
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -1320,7 +1490,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637812095140000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3233,6 +3403,12 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
     - 1.0.0
     compatible:
     - 1.0.0
@@ -3252,7 +3428,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637232611380000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3287,6 +3463,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.4.0-preview.3
+    - 0.4.0-preview.5
+    - 0.4.0-preview.6
+    - 0.5.0-preview.1
+    - 0.6.0-preview.1
+    - 0.7.0-preview.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.0-pre.2
+    - 1.1.0
     - 1.1.1
     compatible:
     - 1.1.1
@@ -3303,7 +3491,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637705021060000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3337,9 +3525,44 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.4.2-preview
+    - 0.4.3-preview
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
     - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
     compatible:
     - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -3371,7 +3594,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637594767130000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3471,9 +3694,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -3487,12 +3719,12 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
