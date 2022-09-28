@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float speed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        Input.GetAxis("Horizontal");
-        Input.GetAxis("Vertical");
-        
+    Rigidbody rb;
+void Start(){
+
+ float speed = 5.0f;
+    rb = GetComponent<Rigidbody>();
+}
+ 
+    
+
+
+ void Update(){
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        rb.velocity = new Vector3(horizontal * speed, rb.velocity.y, vertical * speed);
+
+ 
     }
 }
