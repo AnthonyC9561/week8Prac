@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 
 namespace Unity.Services.Core.Scheduler.Internal
@@ -8,14 +7,3 @@ namespace Unity.Services.Core.Scheduler.Internal
         DateTime Now { get; }
     }
 }
-=======
-using System;
-
-namespace Unity.Services.Core.Scheduler.Internal
-{
-    interface ITimeProvider
-    {
-        DateTime Now { get; }
-    }
-}
->>>>>>> LachlanM

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "Unity.EditorCoroutines.Editor",
     "references": [],
@@ -12,19 +11,4 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": []
-=======
-{
-    "name": "Unity.EditorCoroutines.Editor",
-    "references": [],
-    "optionalUnityReferences": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
->>>>>>> LachlanM
 }

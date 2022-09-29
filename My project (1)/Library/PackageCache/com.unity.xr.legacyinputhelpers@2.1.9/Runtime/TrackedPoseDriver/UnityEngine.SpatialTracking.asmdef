@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 {
     "name": "UnityEngine.SpatialTracking",
     "references": [],
    	"includePlatforms": [],
     "excludePlatforms": []
 }
-=======
-{
-    "name": "UnityEngine.SpatialTracking",
-    "references": [],
-   	"includePlatforms": [],
-    "excludePlatforms": []
-}
->>>>>>> LachlanM

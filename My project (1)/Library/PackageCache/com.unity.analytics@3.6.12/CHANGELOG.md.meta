@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: bcd27da1c9ae94d2cafe094482a20792
 timeCreated: 1511216857
@@ -8,14 +7,3 @@ TextScriptImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-fileFormatVersion: 2
-guid: bcd27da1c9ae94d2cafe094482a20792
-timeCreated: 1511216857
-licenseType: Pro
-TextScriptImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> LachlanM
