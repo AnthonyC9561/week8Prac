@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "UnityEditor.XR.LegacyInputHelpers.Tests",
     "references": [
@@ -17,4 +18,25 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ]
+=======
+{
+  "name": "UnityEditor.XR.LegacyInputHelpers.Tests",
+    "references": [
+        "UnityEditor.XR.LegacyInputHelpers"   
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+>>>>>>> LachlanM
 }

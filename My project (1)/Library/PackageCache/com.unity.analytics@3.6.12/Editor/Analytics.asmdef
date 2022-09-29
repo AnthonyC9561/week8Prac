@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 ﻿{
 	"name": "Analytics",
 	"includePlatforms": [
         "Editor"
     ]
 }
+=======
+﻿{
+	"name": "Analytics",
+	"includePlatforms": [
+        "Editor"
+    ]
+}
+>>>>>>> LachlanM

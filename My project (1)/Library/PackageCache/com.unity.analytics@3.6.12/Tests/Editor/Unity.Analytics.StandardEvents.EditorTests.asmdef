@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "Unity.Analytics.StandardEvents.EditorTests",
     "references": [],
@@ -17,3 +18,24 @@
     "defineConstraints": [],
     "versionDefines": []
 }
+=======
+{
+    "name": "Unity.Analytics.StandardEvents.EditorTests",
+    "references": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Unity.Analytics.StandardEvents.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
+>>>>>>> LachlanM

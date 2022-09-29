@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "Unity.Analytics.DataPrivacy.Tests",
     "references": [
@@ -9,4 +10,17 @@
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false
+=======
+{
+    "name": "Unity.Analytics.DataPrivacy.Tests",
+    "references": [
+        "Unity.Analytics.DataPrivacy"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+>>>>>>> LachlanM
 }

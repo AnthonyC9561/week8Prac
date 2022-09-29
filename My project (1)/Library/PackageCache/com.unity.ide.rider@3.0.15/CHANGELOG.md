@@ -2,9 +2,15 @@
 
 ## [3.0.15] - 2022-05-24
 
+<<<<<<< HEAD
 - Cleanup cache after project generation to reduce memory consumption
 - Performance optimization
 - RIDER-76126 Rider package should generate an empty csproj for empty Unity project
+=======
+- Cleanup cache after project generation to reduce memory consumption
+- Performance optimization
+- RIDER-76126 Rider package should generate an empty csproj for empty Unity project
+>>>>>>> LachlanM
 - RIDER-77206 Unity 2020.1.3 'PlayerSettings' does not contain a definition for 'suppressCommonWarnings
 
 

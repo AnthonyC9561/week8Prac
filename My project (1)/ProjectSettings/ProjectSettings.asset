@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
+<<<<<<< HEAD
   productGUID: f3af0e73215eb594781afcdffd0402e4
+=======
+  productGUID: 2186db30df3c958479f0b3e659cecda1
+>>>>>>> LachlanM
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0

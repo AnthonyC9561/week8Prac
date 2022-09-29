@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "UnityEditor.SpatialTracking",
     "references": [
@@ -19,4 +20,27 @@
             "define": "XR_MANAGEMENT"
         }
     ]
+=======
+{
+    "name": "UnityEditor.SpatialTracking",
+    "references": [
+        "UnityEngine.SpatialTracking"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.management",
+            "expression": "1.0.0",
+            "define": "XR_MANAGEMENT"
+        }
+    ]
+>>>>>>> LachlanM
 }

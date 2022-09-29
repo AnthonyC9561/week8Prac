@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "UnityEngine.SpatialTracking.Tests",
     "references": [
@@ -11,4 +12,19 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ]
+=======
+{
+    "name": "UnityEngine.SpatialTracking.Tests",
+    "references": [
+        "UnityEngine.SpatialTracking"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+>>>>>>> LachlanM
 }
