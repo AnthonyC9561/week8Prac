@@ -22,6 +22,19 @@ public class UIManager : MonoBehaviour
     //using TMPro
     [SerializeField] private TextMeshProUGUI scoreText;
 
+    void Awake()
+    {
+        {
+            if (instance != null)
+            {
+                Destroy(instance);
+            }
+            else
+            {
+                instance = this;
+            }
+        }
+    }
 
     void Start()//default value of score
     {

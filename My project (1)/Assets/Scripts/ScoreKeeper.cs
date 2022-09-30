@@ -27,6 +27,20 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        {
+            if (instance != null)
+            {
+                Destroy(instance);
+            }
+            else
+            {
+                instance = this;
+            }
+        }
+    }
+    
     //to access method ScoreKeeper.Instance.addCoinScore();
     public void addCoinScore()
     {
