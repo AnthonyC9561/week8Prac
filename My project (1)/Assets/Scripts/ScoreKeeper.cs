@@ -40,7 +40,7 @@ public class ScoreKeeper : MonoBehaviour
             }
         }
     }
-    
+
     //to access method ScoreKeeper.Instance.addCoinScore();
     public void addCoinScore()
     {
