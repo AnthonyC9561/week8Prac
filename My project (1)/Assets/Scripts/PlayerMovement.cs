@@ -9,14 +9,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        float speed = 5.0f;
         rb = GetComponent<Rigidbody>();
     }
 
  void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis(InputAxes.Horizontal);
+        float vertical = Input.GetAxis(InputAxes.Vertical);
 
         rb.velocity = new Vector3(horizontal * speed, rb.velocity.y, vertical * speed);
         transform.Translate(rb.velocity * Time.deltaTime);
