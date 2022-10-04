@@ -20,7 +20,8 @@ public class UIManager : MonoBehaviour
         }
     }
     //using TMPro
-    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI playerOneScoreText;
+    [SerializeField] private TextMeshProUGUI playerTwoScoreText;
 
     void Awake()
     {
@@ -38,11 +39,15 @@ public class UIManager : MonoBehaviour
 
     void Start()//default value of score
     {
-        scoreText.text = "Score: 0";
+        playerOneScoreText.text = "Player 1 Score: 0";
+        playerTwoScoreText.text = "Player 2 Score: 0";
+
     }
 
     void Update()
     {
-        scoreText.text = $"Score: {ScoreKeeper.Instance.Score}";
+        playerOneScoreText.text = $"Player 1 Score: {ScoreKeeper.Instance.PlayerOneScore}";
+        playerTwoScoreText.text = $"Player 2 Score: {ScoreKeeper.Instance.PlayerTwoScore}";
+
     }
 }

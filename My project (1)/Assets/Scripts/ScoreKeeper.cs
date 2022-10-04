@@ -18,14 +18,25 @@ public class ScoreKeeper : MonoBehaviour
     }
 
     [SerializeField] private int coinScore = 100;
-    private int score; //current player score
-    public int Score //property to read score
+    private int playerOneScore; //current player score
+    
+    public int PlayerOneScore //property to read score
     {
         get
         {
-            return score;
+            return playerOneScore;
         }
     }
+
+    private int playerTwoScore;
+    public int PlayerTwoScore //property to read score
+    {
+        get
+        {
+            return playerTwoScore;
+        }
+    }
+
 
     void Awake()
     {
@@ -41,10 +52,20 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
+
     //to access method ScoreKeeper.Instance.addCoinScore();
-    public void addCoinScore()
+    public void AddPlayerOneCoinScore()
     {
-        score += coinScore;
+        playerOneScore += coinScore;
+    }
+    
+
+    //to access method ScoreKeeper.Instance.addCoinScore();
+    public void AddPlayerTwoCoinScore()
+    {
+        playerTwoScore += coinScore;
     }
 
 }
+
+
