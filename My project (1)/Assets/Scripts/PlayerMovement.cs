@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity = new Vector3();
 
     void Update()
-    {
+    {//have have script check the tag once in the Start() method, save player string and only update that player instead of checking which player moved each time 
         PlayerOneMovement();
         PlayerTwoMovement();
         transform.Translate(velocity * speed * Time.deltaTime);
